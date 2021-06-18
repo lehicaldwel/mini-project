@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+  }
+
+
+
+
+
+section{
+    display: flex;
+    margin: 20px;
+    width: 90%;
+    height: 100vh;
+    
+}
+
+
+
+
+
+.box{
+    border-style: dashed;
+    border-color: black;
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and max-width:"300px"{
+    
+}
