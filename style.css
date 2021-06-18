@@ -5,28 +5,36 @@ body {
   }
 
 
-
-
-
 section{
     display: flex;
+    flex-wrap: wrap;
     margin: 20px;
     width: 90%;
     height: 100vh;
     
 }
 
-
-
-
-
 .box{
+    display:flex;
+    flex: 0 0 300px;
+    width:300px;
+    margin: 20px;
+    background-color: gold;
     border-style: dashed;
     border-color: black;
-    width: 200px;
     height: 200px;
 }
 
-@media screen and max-width:"300px"{
+.codebox {
+    display:flex;
+    position:absolute;
+    bottom: 10px;
+    left: 50px;
+    background-color: ghostwhite;
+    width: auto;
+    height: auto;
+}
+
+@media screen and (max-width:300px) {
     
 }
