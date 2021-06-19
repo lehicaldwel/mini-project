@@ -14,11 +14,19 @@ section{
     
 }
 
+.card-header{
+    position: relative;
+    margin: -20px 70px;
+    background-color:blueviolet;
+    width: 120px; 
+    height: 40px;
+}
+
 .box{
     display:flex;
     flex: 0 0 300px;
     width:300px;
-    margin: 20px;
+    margin: 15px;
     background-color: gold;
     border-style: dashed;
     border-color: black;
@@ -33,6 +41,16 @@ section{
     background-color: ghostwhite;
     width: auto;
     height: auto;
+}
+
+code{
+  background-color: blueviolet;
+  position: absolute;
+  display:flex;
+  margin: 100px -250px;
+  color: white;
+  width: 230px;
+  height: 80px;
 }
 
 @media screen and (max-width:300px) {
